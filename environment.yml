@@ -1,0 +1,16 @@
+name: analysis_env
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+dependencies:
+  - shap
+  - lightgbm
+  - pandas
+  - jupyterlab
+  - numpy
+  - python=3.13.11
+  - matplotlib
+  - scikit-learn
+prefix: /Users/elainetao/miniforge3/envs/analysis_env
